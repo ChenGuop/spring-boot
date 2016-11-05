@@ -15,7 +15,6 @@ import java.lang.annotation.*;
 public @interface Action {
 	/**
 	 * 注解本身没有功能和xml一样，一种元数据，即配置
-	 * 注解的功能来自使用注解的地方
 	 * @return
 	 */
 	String name();
