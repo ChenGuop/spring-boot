@@ -1,11 +1,12 @@
 ---
-title: Spring项目的快速搭建
+title: Spring Boot实战--（一）Spring项目的快速搭建
 date: 2016/11/3 14:57
 categories: [Java,Spring]
 tags: [spring,maven]
 keywords: spring,pom
 description: 使用maven的pom快速搭建项目
 ---
+# Spring项目的快速搭建
 
 ## Maven 的简介
 > Apache Maven 是一个软件项目管理工具。基于项目对象模型（Project Object Model，POM）的概念，Maven可以用来管理项目的依赖，编译，文档等信息。
@@ -146,3 +147,6 @@ Spring框架四大原则：
 	2. 使用@After、@Before、@Around 定义建言（advice），可直接将拦截规则（切点）作为参数。
 	3.  @After、@Before、@Around 参数的拦截规则为切点（PointCut），为了使切点复用使用@PointCut 专门定义。
 	4.  其中符合条件的每一个被拦截处为连接点（JoinPoint）。
+
+#### [代码演示](https://github.com/ChenGuop/springboot/tree/master/src/main/java/com/chanroc/springboot/ch1/aop)
+- 示例将基于注解拦截和基本方法规则拦截两种方式。模拟记录操作日志系统的实现。
